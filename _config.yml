@@ -20,7 +20,7 @@
 
 title: N.N Computing
 email: nniemeir@protonmail.com
-baseurl: /PROJECT # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: "https://nniemeir.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nniemeir
 domain: nniemeir.github.io
@@ -28,7 +28,6 @@ domain: nniemeir.github.io
 theme: minima
 plugins:
   - jekyll-feed
-root: /
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
