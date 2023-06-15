@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+  {%- if site.posts.size > 0 -%}
+<h3 class="grid-heading">{{ page.list_title | default: "Posts" }}</h3>
+
+<div class="grid-container">
+      {%- for post in site.posts -%}
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <div class="grid-item">
+          <a href="{{ post.url | relative_url }}">
+            <div class="grid-item-title">{{ post.title | escape }}<div class="grid-date">{{ post.date | date: date_format }}</div>
+            </div>
+          </a>
+        </div>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      {%- endfor -%}
+
+  {%- endif -%}
+</div>
