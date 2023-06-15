@@ -20,8 +20,7 @@
 
 title: N.N Computing
 email: nniemeir@protonmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-Natalie Niemeir's Academic Blog 
+description: >- Natalie Niemeir's Academic Blog 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nniemeir.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nniemeir
