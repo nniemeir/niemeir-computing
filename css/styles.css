@@ -13,7 +13,7 @@
   background: var(--accent-color);
   color: white;
 }
-.highlight, .highlighter-rouge {
+.highlight, .highlighter-rouge, code {
 background: #171717 !important;
 }
 body, .highlight, .highlighter-rouge {
