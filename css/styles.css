@@ -19,7 +19,7 @@ body {
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.8rem;
-  line-height: 1.5;
+  line-height: 2;
   margin: 0;
   padding: 0;
 }
@@ -112,6 +112,7 @@ a:hover {
 
 .column img {
   height: 40px;
+  border: none;
 }
 
 .column {
@@ -213,4 +214,10 @@ a:hover {
   margin-left: 2%;
   margin-top: 2%;
   transform: rotate(90deg);
+}
+
+img {
+  border: 3px solid var(--accent-color);
+  display:block;
+  margin:auto;
 }
