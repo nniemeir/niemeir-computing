@@ -15,6 +15,7 @@
 }
 .highlight, .highlighter-rouge, code {
 background: #171717 !important;
+padding: 2px;
 }
 body, .highlight, .highlighter-rouge {
   background: #171717;
@@ -42,6 +43,9 @@ p {
   border-bottom: 3px solid var(--accent-color);
 
 }
+pre, code {
+border: 2px solid var(--accent-color);
+border-radius: 3px;
 /**
  * Wrapper
  */
