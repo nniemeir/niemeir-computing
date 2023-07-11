@@ -14,7 +14,7 @@
   color: white;
 }
 
-body {
+body, .highlight {
   background: #171717;
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;
