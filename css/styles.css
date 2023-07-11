@@ -14,7 +14,7 @@
   color: white;
 }
 .highlight, .highlighter-rouge {
-background: #171717;
+background: #171717 !important;
 }
 body, .highlight, .highlighter-rouge {
   background: #171717;
