@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #b561bd;
+  --accent-color: #b16286;
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
@@ -17,7 +17,7 @@
 background: #171717 !important;
 }
 body, .highlight, .highlighter-rouge {
-  background: #171717;
+  background: #282828;
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.8rem;
